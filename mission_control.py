@@ -27,3 +27,9 @@ print("hours", coundown_hours)
 distance_Km = int(input("enter distance in Km"))
 distance_miles = distance_Km*0.6
 print("miles:",distance_miles)
+old_agent_name =agent_name
+new_agent_name =input("enter new agent name:")
+agent_name = new_agent_name
+print("previous agent name:", old_agent_name)
+print("new agent name:", agent_name)
+
